@@ -1,0 +1,16 @@
+// Container
+// -------------------------------------------------------------------------- //
+@mixin container {
+  display: block;
+  position: relative;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+// Fonts
+// -------------------------------------------------------------------------- //
+@mixin font-smooth {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
